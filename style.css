@@ -59,10 +59,13 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 30px;
-    border-radius: 17px;
+    border-radius: 12px;
     font-size: 35px;
     font-weight: bold;
     color:black;
+    white-space: nowrap;         
+    overflow: hidden;           
+    text-overflow: ellipsis;     
     z-index: 200;
     font-family: sans-serif;
 }
