@@ -40,7 +40,7 @@
         if (!isNaN(donation)) {
           const percentage = Math.min(donation / maxDonation, 1);
           donationContainer.style.height = `${percentage * 100}%`;
-          amountText.textContent = "€ " + donation.toLocaleString("it-IT") + "/60.000";
+          amountText.textContent = "€ " + donation.toLocaleString("it-IT") + "/€ 60.000";
         }
       })
       .catch(err => console.error("Errore:", err));
