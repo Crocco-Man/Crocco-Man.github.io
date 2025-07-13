@@ -67,6 +67,16 @@
     font-family: sans-serif;
 }
 
+.easteregg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+    font-size: 5px;
+    color: crimson;
+    font-family: sans-serif;
+}
+
 #onda1 { z-index: 10; opacity: 1; animation: animate 4s linear infinite; }
 #onda2 { z-index: 9; opacity: 0.5; animation: animate2 4s linear infinite; }
 #onda3 { z-index: 8; opacity: 0.2; animation: animate 3s linear infinite; }
