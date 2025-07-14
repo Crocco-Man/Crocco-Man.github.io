@@ -34,7 +34,7 @@
       .then(csv => {
         const lines = csv.split('\n');
         const values = lines[1].split(',');
-        const donation = parseFloat(values[0]);
+        const donation = parseFloat(values[1]);
         console.log("Donazione letta:", donation);
 
         if (!isNaN(donation)) {
