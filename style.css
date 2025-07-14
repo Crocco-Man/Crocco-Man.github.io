@@ -72,9 +72,8 @@
 
 .easteregg {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 5px;
+    left: 0px;
+    top: 0px;
     font-size: 1px;
     color: crimson;
     font-family: sans-serif;
